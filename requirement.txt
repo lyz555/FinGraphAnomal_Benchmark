@@ -1,0 +1,23 @@
+# -- Package Requirements --
+# To correctly install PyTorch and its related packages, please use the following command:
+# pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121 -f https://data.pyg.org/whl/torch-2.1.0+cu121.html -f https://data.dgl.ai/wheels/repo.html
+
+# PyTorch
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+torchaudio==2.1.0+cu121
+
+# PyTorch Geometric (PyG) core package
+torch_geometric
+
+# Sparse matrix operation packages required by PyG
+torch-scatter
+torch-sparse
+
+# Deep Graph Library (DGL)
+dgl==2.0.0
+
+# Other dependencies
+networkx==2.8.4
+pygod
+numpy==1.23.5
