@@ -4,13 +4,13 @@ Of course, here is a README for your project.
 
 This project establishes a benchmark for anomaly detection on graph-niched nodes within the financial domain. It evaluates various models on several financial datasets and provides a framework for future research in this area.
 
-## 📜 Overview
+## Overview
 
 Financial systems are often represented as graphs where nodes can be users, institutions, or transactions, and edges represent the relationships or interactions between them. Identifying anomalous nodes in these graphs is crucial for detecting fraudulent activities, money laundering, and other illicit behaviors. This benchmark provides a standardized environment to evaluate and compare different anomaly detection methods on financial graph data.
 
 This repository contains the implementation of seven different models tested on three datasets: **DGraph**, **T-Finance**, and **Elliptic**. The framework is designed to be easily extensible for new models and datasets.
 
-## 💾 Datasets
+## Datasets
 
 The benchmark utilizes three datasets, each representing different aspects of financial networks.
 
@@ -34,7 +34,7 @@ A variety of models, from simple MLPs to more complex Graph Neural Networks (GNN
   * **CoLA (Contrastive-based Outlier-aware GNN)**: An anomaly detection model that uses contrastive learning.
   * **PC-GNN (Pick and Choose GNN)**: A GNN-based approach for imbalanced learning, suitable for fraud detection.
 
-## ⚙️ Installation
+## Installation
 
 To run the experiments, you need to install the required dependencies. It is recommended to use a virtual environment.
 
